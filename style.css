@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  font-family: "inter";
+}
+
+#cabecalhosuperior {
+  background-color: #303030;
+  color: #ffffff;
+  padding: 160px 70px 100px 70px;
+}
+
+#titulocabecalho {
+  font-size: 60px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+#textocabecalho {
+  font-size: 20px;
+}
+
+#menuinfomacional {
+  background-color: #f9f9f9;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  padding: 96px 64px 66px 64px;
+}
+
+.textobold {
+  font-weight: bolder;
+  font-size: 40px;
+  margin-left: 60px;
+}
+
+.textoinformativo {
+  font-size: 20px;
+  display: flex;
+  margin-left: 60px;
+}
+
+#secaoexperiencia {
+  background-color: white;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  align-items: center;
+  padding: 82px 54px 92px 70px;
+}
+
+#tituloexperiencia {
+  font-size: 37px;
+  font-weight: 500;
+}
+
+#textoexperiencia {
+  padding-top: 55px;
+  font-size: 20px;
+}
+
+.imagem {
+  width: 510px;
+  height: 605px;
+}
+
+#formulario {
+  background-color: #303030;
+  text-align: center;
+  padding-top: 87px;
+}
+
+#tituloformulario {
+  font-size: 32px;
+  padding-bottom: 48px;
+  color: #ffffff;
+}
+
+input {
+  width: 508px;
+  height: 72px;
+  background-color: #ffffff;
+  border: 0px;
+  border-radius: 10px;
+  font-weight: bolder;
+  margin-bottom: 62px;
+  color: #00000086;
+  padding-left: 30px;
+  font-size: 24px;
+}
+
+button {
+  background-color: #c07212;
+  width: 286px;
+  height: 74px;
+  border: 0px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700px;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 75px;
+  cursor: pointer;
+}
+
+input:hover {
+  background-color: whitesmoke;
+  color: black;
+  transform: translateY(-7px);
+  box-shadow: 0px 10px 20px #398d9c91;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  background-color: #c98028;
+  color: white;
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px #9c793991;
+  transition-duration: 0.5s;
+}
